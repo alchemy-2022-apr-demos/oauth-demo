@@ -14,6 +14,7 @@ describe('why-i-autha routes', () => {
     pool.end();
   });
 
+  // stretch test :)
   it('should redirect to the github oauth page upon login', async () => {
     const res = await request(app).get('/api/v1/github/login');
 
